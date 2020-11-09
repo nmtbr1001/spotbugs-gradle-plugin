@@ -14,7 +14,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         spotbugsGradlePlugin {
-            id = 'com.github.spotbugs'
+            id = 'com.github.nmtbr1001.spotbugs'
             displayName = 'Official SpotBugs Gradle Plugin'
             description = 'A Gradle plugin that runs static bytecode analysis by SpotBugs'
             implementationClass = 'com.github.spotbugs.snom.SpotBugsPlugin'
